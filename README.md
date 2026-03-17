@@ -2,7 +2,7 @@
 
 A Python-based video stabilisation tool built from scratch using optical flow and affine transform estimation. No wrappers, no black boxes — every stage of the pipeline is implemented directly using OpenCV and NumPy.
 
-https://github.com/Onion-was-here/orions-stabilizer/assets/demo.mp4
+https://github.com/Onion-was-here/Orion-s-Stabilizer/blob/main/assets/demo.gif
 
 ---
 
