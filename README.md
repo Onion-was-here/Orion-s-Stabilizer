@@ -77,3 +77,14 @@ Edges that appear black after warping are hidden by cropping a fixed percentage 
 - Scene cuts will produce a spike in the correction values — the clamp handles this but stabilisation quality drops around the cut.
 - Processing is single-threaded and proportional to frame count and resolution.
 - Output codec is `mp4v`. For better compression, re-encode the output with FFmpeg using `libx264`.
+
+## Upcoming features
+
+**Web app** — a local web interface built with Flask where you can drag and drop a video,
+adjust stabilisation parameters with sliders, and download the result without touching
+any code. Will be packaged as a standalone executable so no Python installation is needed.
+
+**Rolling shutter correction** — handheld footage from CMOS sensors often has a
+characteristic horizontal wobble ("jello effect") caused by the sensor reading rows
+sequentially rather than all at once. A future version will detect and compensate for
+this distortion as a pre-processing step before the main stabilisation pipeline runs.
