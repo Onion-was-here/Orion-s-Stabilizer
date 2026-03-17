@@ -3,3 +3,7 @@ main-checkpoint.ipynb
 *.mp4
 *.mkv
 *.avi
+main broken.ipynb
+main-checkpoint.ipynb
+main_fixed-checkpoint.ipynb
+.ipynb_checkpoints
